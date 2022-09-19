@@ -238,10 +238,3 @@ def PublicPartInit(file_name):
     )
     st.sidebar.image('./data/qrcode.jpg',caption = '欢迎关注我的公众号', width = 150)
     st.sidebar.write('> [反馈&留言](https://support.qq.com/embed/phone/433845/new-post)')
-
-
-example_dict ={'物品': {'钢笔': {'颜色': '黑色', '数量': 100}}, '地点': {'省': '广东', '市': '广州'},
-    '人物': {'性别': '男', '年龄': 18, '是否单身狗': False}}
-
-import json 
-json.dumps(example_dict)
